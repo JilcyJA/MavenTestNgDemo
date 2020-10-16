@@ -21,7 +21,7 @@ public class TestBaseClass {
 
 	//constructor
 	public TestBaseClass(String FilePath) {
-		System.out.println("inside base class constructor");
+		System.out.println("inside Test base class constructor");
 
 		try {
 			FileInputStream Locator = new FileInputStream(FilePath);

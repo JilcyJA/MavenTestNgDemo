@@ -1,5 +1,7 @@
 package com.wipro.testcases;
 
+import java.awt.Robot;
+import java.awt.event.KeyEvent;
 import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -78,6 +80,10 @@ public class TC_002_Login_Edit_Ac_Info extends TestBaseClass{
 		uilocator = new TestBaseClass("src\\test\\resources\\config\\locator.properties");
 
 		//step 2 Click on My Account and then click on login
+		//driver.manage().getCookies();
+//		Robot rbt=new Robot();
+//		rbt.keyPress(KeyEvent.VK_DOWN);
+//		rbt.keyPress(KeyEvent.KEY_PRESSED);
 		
 		WebElement myaccount = driver.findElement(uilocator.getLocator("my_account_menu"));
 		myaccount.click();

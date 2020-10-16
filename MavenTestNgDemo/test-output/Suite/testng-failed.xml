@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.wipro.testcases.TC_001_Registration">
+        <methods>
+          <include name="setUp"/>
+          <include name="afterMethod"/>
+          <include name="setUpsuite"/>
+          <include name="afterSetUpsuite"/>
+          <include name="registration" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.wipro.testcases.TC_001_Registration -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

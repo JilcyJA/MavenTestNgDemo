@@ -3,13 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.wipro.testcases.TC_003_AddCart_Payment">
+      <class name="com.wipro.testcases.TC_002_Login_Edit_Ac_Info">
         <methods>
-          <include name="login" invocation-numbers="0"/>
+          <include name="login"/>
+          <include name="setUpsuite"/>
           <include name="setUp"/>
           <include name="afterMethod"/>
+          <include name="afterSetUpsuite"/>
         </methods>
-      </class> <!-- com.wipro.testcases.TC_003_AddCart_Payment -->
+      </class> <!-- com.wipro.testcases.TC_002_Login_Edit_Ac_Info -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
